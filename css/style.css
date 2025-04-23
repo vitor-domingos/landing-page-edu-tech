@@ -166,12 +166,14 @@ main section {
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     display: flex;
     align-items: center;
+    font-size: 15px;
 }
 
-.activity-icon {
-    font-size: 1.5rem;
-    margin-right: 1rem;
+.activities .container ul li img{
+width: 25px;
+height: 25px;
 }
+
 
 /* Seção de Suporte */
 .support {
@@ -245,17 +247,16 @@ footer {
 
 .credits{
 color: #7FFFD4;
+font-size: 20px;
  }
 
-.credit-icon{
-color:#00FF00;
+ .container a{
+color: #FF8C00;
  }
 
-.credit-icon:hover{
-color: #90EE90;
- }
-
-
+.container a:hover{
+color: #87CEFA;
+ }	
 
 /* Responsividade */
 @media (max-width: 768px) {
